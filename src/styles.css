@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: green;
+  padding-inline: 10px;
+  font-weight: bold;
+}
+.header-list ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.header a {
+  color: greenyellow;
+  text-decoration: none;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.homeContainer {
+  background-color: antiquewhite;
+  height: 100vh;
+  text-align: center;
+}
